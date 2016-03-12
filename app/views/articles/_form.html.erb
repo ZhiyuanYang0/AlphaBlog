@@ -20,7 +20,8 @@
         </div>
     
         <div class="col-sm-8">
-          <%= f.text_area :description, rows: 10, class: "form-control", placeholder: "Body of article" %>
+          <%= f.cktext_area :description, :class => 'form-control', 
+               :ckeditor => {:language => 'en', :toolbar => 'mini', :removeButtons => 'About,Language'} %>
         </div>
       </div>
       

@@ -1,3 +1,5 @@
+require 'sanitize'
+
 class ArticlesController < ApplicationController
     before_action :set_article, only: [:edit, :update, :show, :destroy]
     before_action :require_user, except: [:index, :show]
