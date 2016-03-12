@@ -8,8 +8,10 @@ Ckeditor.setup do |config|
   
   Ckeditor.setup do |config|
     config.assets_languages = ['en']
-    config.assets_plugins = ['image', 'smiley']
+    config.assets_plugins = ['smiley']
   end
+  
+  
 
   # Allowed image file types for upload.
   # Set to nil or [] (empty array) for all file types
