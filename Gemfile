@@ -15,7 +15,7 @@ gem 'paperclip'
 
 gem 'sanitize'
 
-gem 'non-stupid-digest-assets', '~> 1.0.4'
+gem 'non-stupid-digest-assets'
 
 # Use SCSS for stylesheets
 gem 'bootstrap-sass', '~> 3.3.6'

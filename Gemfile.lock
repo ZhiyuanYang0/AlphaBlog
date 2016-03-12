@@ -194,7 +194,7 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
   jquery-rails
-  non-stupid-digest-assets (~> 1.0.4)
+  non-stupid-digest-assets
   paperclip
   pg
   rails (= 4.2.5)

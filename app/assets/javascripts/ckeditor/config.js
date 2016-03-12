@@ -15,6 +15,5 @@ CKEDITOR.editorConfig = function( config ) {
 		{ name: 'about', groups: [ 'about' ] }
 	];
 
-    config.language = 'en';
 	config.removeButtons = 'NewPage,PasteFromWord,PasteText,Paste,Copy,Cut,SelectAll,Form,TextField,Textarea,Select,Checkbox,Radio,Button,ImageButton,HiddenField,CreateDiv,BidiLtr,BidiRtl,Language,Anchor,Flash,PageBreak,Iframe,ShowBlocks,About,Table,Strike,RemoveFormat,Image';
 };
