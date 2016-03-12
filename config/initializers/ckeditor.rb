@@ -36,6 +36,11 @@ Ckeditor.setup do |config|
   # By default: nil (no limit)
   # config.assets_languages = ['en', 'uk']
   # config.assets_plugins = ['image', 'smiley']
+  
+  Ckeditor.setup do |config|
+  config.assets_languages = ['en']
+  config.assets_plugins = ['image', 'smiley']
+  end
 
   # CKEditor CDN
   # More info here http://cdn.ckeditor.com/
